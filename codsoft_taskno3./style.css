@@ -1,11 +1,10 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     display: flex;
     justify-content: center;
@@ -15,7 +14,6 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Calculator Container */
 .calculator {
     background-color: #333;
     padding: 20px;
@@ -24,7 +22,7 @@ body {
     width: 339px;
 }
 
-/* Calculator Display */
+
 .calculator-display {
     background-color: #222;
     color: #fff;
@@ -38,7 +36,7 @@ body {
     overflow: hidden;
 }
 
-/* Calculator Buttons Grid */
+
 .calculator-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
