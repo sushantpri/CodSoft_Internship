@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +10,12 @@ body {
     line-height: 1.6;
 }
 
-/* Container */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Header */
 header {
     background-color: #333;
     color: white;
@@ -48,7 +46,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* About Section */
 .about-section {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -65,7 +62,7 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-/* Skills Section */
+
 .skills-section {
     padding: 50px 0;
     text-align: center;
@@ -86,7 +83,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Projects Section */
+
 .projects-section {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -101,7 +98,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* Resume Section */
+
 .resume-section {
     background-color: #fff;
     padding: 50px 0;
@@ -121,7 +118,7 @@ nav ul li a:hover {
     background-color: #218838;
 }
 
-/* Contact Section */
+
 .contact-section {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -132,7 +129,7 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
-/* Footer */
+
 footer {
     background-color: #333;
     color: white;
@@ -140,7 +137,6 @@ footer {
     text-align: center;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
